@@ -14,11 +14,11 @@ exports.json = {
   "layout-index.json": require("gatsby-module-loader?name=path---!C:\\Users\\Felipe\\Projects\\medicina_dolor\\.cache\\json\\layout-index.json"),
   "404.json": require("gatsby-module-loader?name=path---404!C:\\Users\\Felipe\\Projects\\medicina_dolor\\.cache\\json\\404.json"),
   "layout-index.json": require("gatsby-module-loader?name=path---!C:\\Users\\Felipe\\Projects\\medicina_dolor\\.cache\\json\\layout-index.json"),
-  "404-html.json": require("gatsby-module-loader?name=path---404-html!C:\\Users\\Felipe\\Projects\\medicina_dolor\\.cache\\json\\404-html.json"),
-  "layout-index.json": require("gatsby-module-loader?name=path---!C:\\Users\\Felipe\\Projects\\medicina_dolor\\.cache\\json\\layout-index.json"),
   "index.json": require("gatsby-module-loader?name=path---index!C:\\Users\\Felipe\\Projects\\medicina_dolor\\.cache\\json\\index.json"),
   "layout-index.json": require("gatsby-module-loader?name=path---!C:\\Users\\Felipe\\Projects\\medicina_dolor\\.cache\\json\\layout-index.json"),
-  "page-2.json": require("gatsby-module-loader?name=path---page-2!C:\\Users\\Felipe\\Projects\\medicina_dolor\\.cache\\json\\page-2.json")
+  "page-2.json": require("gatsby-module-loader?name=path---page-2!C:\\Users\\Felipe\\Projects\\medicina_dolor\\.cache\\json\\page-2.json"),
+  "layout-index.json": require("gatsby-module-loader?name=path---!C:\\Users\\Felipe\\Projects\\medicina_dolor\\.cache\\json\\layout-index.json"),
+  "404-html.json": require("gatsby-module-loader?name=path---404-html!C:\\Users\\Felipe\\Projects\\medicina_dolor\\.cache\\json\\404-html.json")
 }
 
 exports.layouts = {

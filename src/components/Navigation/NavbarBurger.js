@@ -7,7 +7,7 @@ class NavbarBurger extends React.Component {
   static defaultProps = {
     isActive: false
   }
-  componentWillMount() {
+  componentDidMount() {
     document.addEventListener("click", this.handleClick, false)
   }
   componentWillUnmount() {
@@ -31,15 +31,14 @@ class NavbarBurger extends React.Component {
         css={{
           cursor: "pointer",
           display: "block",
-          height: rhythm(2.5),
+          height: rhythm(3),
           position: "relative",
-          width: rhythm(2.5),
-          marginLeft: "auth",
-          color: white,
+          width: rhythm(3),
+          marginLeft: "auto",
+          color: primary,
+          fontSize: rhythm(2),
           "&:hover": { backgroundColor: "rgba(0, 0, 0, 0.05)" },
-          [media.mobile]: {
-            display: "none"
-          }
+          [media.tablet]: { display: "none" }
         }}
       >
         <span

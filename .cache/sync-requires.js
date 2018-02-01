@@ -19,9 +19,9 @@ exports.json = {
   "layout-index.json": require("C:\\Users\\Felipe\\Projects\\medicina_dolor\\.cache\\json\\layout-index.json"),
   "404.json": require("C:\\Users\\Felipe\\Projects\\medicina_dolor\\.cache\\json\\404.json"),
   "layout-index.json": require("C:\\Users\\Felipe\\Projects\\medicina_dolor\\.cache\\json\\layout-index.json"),
-  "404-html.json": require("C:\\Users\\Felipe\\Projects\\medicina_dolor\\.cache\\json\\404-html.json"),
-  "layout-index.json": require("C:\\Users\\Felipe\\Projects\\medicina_dolor\\.cache\\json\\layout-index.json"),
   "index.json": require("C:\\Users\\Felipe\\Projects\\medicina_dolor\\.cache\\json\\index.json"),
   "layout-index.json": require("C:\\Users\\Felipe\\Projects\\medicina_dolor\\.cache\\json\\layout-index.json"),
-  "page-2.json": require("C:\\Users\\Felipe\\Projects\\medicina_dolor\\.cache\\json\\page-2.json")
+  "page-2.json": require("C:\\Users\\Felipe\\Projects\\medicina_dolor\\.cache\\json\\page-2.json"),
+  "layout-index.json": require("C:\\Users\\Felipe\\Projects\\medicina_dolor\\.cache\\json\\layout-index.json"),
+  "404-html.json": require("C:\\Users\\Felipe\\Projects\\medicina_dolor\\.cache\\json\\404-html.json")
 }

@@ -1,5 +1,6 @@
 import React from "react"
-import william from "../pages/consultorio.jpg"
+import william from "./sportsmassage1.jpg"
+import { primary, grey_darker } from "../utils/colors"
 const HeroSection = () => (
   <header
     css={{
@@ -26,7 +27,7 @@ const HeroSection = () => (
           lineHeight: "1",
           textTransform: "uppercase",
           fontSize: "3em",
-          marginBottom: 0,
+          marginBottom: "1rem",
           textAlign: "center"
         }}
       >
@@ -38,10 +39,15 @@ const HeroSection = () => (
           lineHeight: "1",
           marginBottom: "40px",
           fontSize: "1.5em",
+          display: "flex",
           fontWeight: "normal"
         }}
       >
-        Consultorio de William Guitierrez
+        <span>Consultorio</span>
+        <span css={{ color: primary, margin: "0 0.5rem" }}>/</span>
+        <span>Medicina</span>
+        <span css={{ color: primary, margin: "0 0.5rem" }}>/</span>
+        <span>Tratamiento</span>
       </h3>
       <a
         href="#"
@@ -52,9 +58,9 @@ const HeroSection = () => (
           border: "1px solid white",
           textDecoration: "none",
           ":hover": {
-            backgroundColor: "rgba(255, 255, 255, 0.1)",
-            borderColor: "rgba(255, 255, 255, 0.7)",
-            color: "white"
+            backgroundColor: primary,
+            borderColor: primary,
+            color: grey_darker
           }
         }}
       >

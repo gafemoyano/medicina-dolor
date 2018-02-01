@@ -1,10 +1,10 @@
 import React from "react"
 import Link from "gatsby-link"
 import { rhythm, scale } from "../../utils/typography"
-import { primary, grey_lighter, white } from "../../utils/colors"
+import { primary, grey_lighter, white, grey_dark } from "../../utils/colors"
 import media from "../../utils/media"
 import NavbarBurger from "./NavbarBurger"
-import Container from "../Container"
+import FluidContainer from "../FluidContainer"
 
 const NavItem = ({ linkTo, children }) => (
   <li
@@ -18,17 +18,22 @@ const NavItem = ({ linkTo, children }) => (
       css={{
         boxSizing: `border-box`,
         display: `inline-block`,
-        color: white,
+        color: primary,
+        fontWeight: "bold",
+        fontSize: rhythm(2 / 3),
         textDecoration: `none`,
+        margin: "0 1rem",
         letterSpacing: `0.03em`,
         lineHeight: `calc(${rhythm(2.5)} - 4px)`,
         padding: `4px ${rhythm(0.5)} 0`,
         position: `relative`,
         top: 0,
         transition: `color .15s ease-out`,
+        textTransform: "uppercase",
         opacity: 0.9,
         "&:hover": {
-          opacity: 1
+          opacity: 1,
+          color: white
         },
         "&:last-child": {
           paddingRight: "0px"
@@ -44,7 +49,7 @@ class Navigation extends React.Component {
   state = {
     isMenuActive: false
   }
-  componentWillMount() {
+  componentDidMount() {
     document.addEventListener("click", this.handleClick, false)
   }
   componentWillUnmount() {
@@ -63,48 +68,68 @@ class Navigation extends React.Component {
           height: rhythm(3),
           left: 0,
           right: 0,
-          background: primary,
+          background: grey_dark,
           boxShadow: "0 6px 6px -6px #222222"
         }}
       >
-        <Container css={{ height: "100%" }}>
+        <FluidContainer css={{ height: "100%" }}>
           <div
             css={{
               margin: "0 auto",
               paddingRight: 0,
               display: `flex`,
               flexDirection: "row",
-              alignItems: `center`,
               width: `100%`,
-              height: `100%`
+              height: `100%`,
+              justifyContent: "space-between",
+              alignItems: "center"
             }}
           >
             <h1
               css={{
-                ...scale(1 / 5),
+                ...scale(1 / 8),
                 display: `block`,
-                flex: 1,
                 margin: 0,
-                verticalAlign: `middle`
+                verticalAlign: `middle`,
+                textTransform: "uppercase",
+                margin: "0",
+                margin: 0,
+                [media.tablet]: { ...scale(1 / 4) }
               }}
             >
               <Link
                 to="/"
                 css={{
-                  color: "white",
+                  display: "flex",
+                  color: primary,
+                  flexWrap: "nowrap",
+                  justifiContent: "center",
+                  alignItems: "center",
                   textDecoration: "none",
-                  marginRight: rhythm(0.5)
+                  marginRight: rhythm(0.5),
+                  transition: "all .1s ease-in"
                 }}
               >
-                William Guitierrez - Medicina del Dolor
+                <i className="fab fa-medrt fa-3x" />
+                <span
+                  css={{
+                    margin: "0 1rem",
+                    fontSize: rhythm(1.2),
+                    fontWeight: "bold"
+                  }}
+                >
+                  Medicina del Dolor
+                </span>
               </Link>
             </h1>
             <ul
               css={{
                 display: "none",
-                [media.mobile]: {
+                textAlign: "right",
+                [media.tablet]: {
                   flexDirection: "row",
                   display: "flex",
+                  justifyContent: "flex-end",
                   margin: 0,
                   padding: 0,
                   listStyle: "none"
@@ -147,7 +172,7 @@ class Navigation extends React.Component {
             <Link to="#tecnicos">Tecnicas</Link>
             <Link to="#contacto">Contacto</Link>
           </div>
-        </Container>
+        </FluidContainer>
       </nav>
     )
   }

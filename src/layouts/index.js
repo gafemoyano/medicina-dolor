@@ -4,7 +4,6 @@ import Helmet from "react-helmet"
 import Navigation from "../components/Navigation"
 import Topbar from "../components/Topbar"
 import Footer from "../components/Footer"
-import "font-awesome/css/font-awesome.css"
 const TemplateWrapper = ({ children }) => (
   <div>
     <Helmet
@@ -21,7 +20,12 @@ const TemplateWrapper = ({ children }) => (
             "dolor, quiropraxis, digito-puntura, quiromasaje, sintergetica, auriculoterapia, reflexologia, podal, reiki"
         }
       ]}
-    />
+    >
+      <script
+        defer
+        src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"
+      />
+    </Helmet>
     <header>
       <Topbar />
       <Navigation />

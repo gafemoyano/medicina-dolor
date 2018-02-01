@@ -11,9 +11,9 @@ import reflexologiaPodal from "./reflexologia-podal.jpg"
 import auriculoterapia from "./auriculoterapia.jpg"
 import reiki from "./reiki.jpg"
 import masajeSacroCraneal from "./masaje-sacrocraneal.jpg"
-import william from "../../pages/consultorio.jpg"
+import { rhythm } from "../../utils/typography"
 
-import { primary, white } from "../../utils/colors"
+import { primary, white, grey_dark } from "../../utils/colors"
 
 const styles = {
   section: { padding: "100px 0", textAlign: "center" },
@@ -28,8 +28,9 @@ const styles = {
     justifyContent: "center",
     "& p": {
       width: "100%",
+      fontSize: rhythm(0.8),
       [desktop]: {
-        width: "50%"
+        width: "60%"
       }
     }
   },
@@ -38,7 +39,7 @@ const styles = {
     [mobile]: {
       display: "flex",
       flexWrap: "wrap",
-      flexDirection: " row"
+      flexDirection: "row"
     }
   },
   cell: {
@@ -54,10 +55,11 @@ const styles = {
       width: "calc(100%/3)"
     },
     "& h4": {
-      background: primary,
-      color: white,
+      background: grey_dark,
+      color: primary,
       width: "100%",
-      padding: "0.5rem 1rem"
+      padding: "0.5rem 1rem",
+      fontSize: rhythm(1)
     }
   },
   responsiveImage: {

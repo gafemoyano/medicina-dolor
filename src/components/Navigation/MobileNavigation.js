@@ -1,7 +1,7 @@
 import React from "react"
 import Link from "gatsby-link"
 import { rhythm, scale } from "../../utils/typography"
-import { primary, grey_lighter, white } from "../../utils/colors"
+import { primary, grey_lighter, white, grey_dark } from "../../utils/colors"
 import media from "../../utils/media"
 
 const NavItem = ({ linkTo, children }) => (
@@ -38,7 +38,7 @@ const NavItem = ({ linkTo, children }) => (
 const MobileNavigation = () => (
   <nav
     css={{
-      background: primary,
+      background: grey_dark,
       marginBottom: rhythm(1 / 2),
       height: rhythm(2.5),
       zIndex: "1",
@@ -71,7 +71,7 @@ const MobileNavigation = () => (
         <Link
           to="/"
           css={{
-            color: "white",
+            color: primary,
             textDecoration: "none",
             marginRight: rhythm(0.5)
           }}
@@ -82,7 +82,7 @@ const MobileNavigation = () => (
       <ul
         css={{
           display: "none",
-          [media.mobile]: {
+          [media.tablet]: {
             flexDirection: "row",
             display: "flex",
             margin: 0,

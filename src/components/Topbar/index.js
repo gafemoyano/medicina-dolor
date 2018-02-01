@@ -1,32 +1,29 @@
 import React from "react"
-import { grey } from "../../utils/colors"
-import Container from "../Container"
+import { grey, dark } from "../../utils/colors"
+import FluidContainer from "../FluidContainer"
 import { desktop } from "../../utils/media"
 const Topbar = () => (
   <div
     css={{
       display: "none",
       position: "relative",
-      backgroundColor: grey,
+      backgroundColor: dark,
       paddingTop: "5px",
       paddingBottom: "5px",
       color: "#c1c1c1",
       fontSize: "1rem",
-      backgroundColor: "#52565f",
       [desktop]: {
         display: "block"
       }
     }}
   >
-    <Container>
+    <FluidContainer>
       <div
         css={{
           display: "flex"
         }}
       >
-        <div css={{ flex: 1, fontSize: "1rem" }}>
-          No le saque la espalda al dolor.{" "}
-        </div>
+        <div css={{ flex: 1, fontSize: "1rem" }}>William Gutierrez M.T.C. </div>
         <div css={{ flex: 1, textAlign: "right" }}>
           <ul
             css={{
@@ -40,8 +37,12 @@ const Topbar = () => (
             }}
           >
             <li>
-              <i className="fa fa-envelope-o" />
-              {" : "}
+              <i className="fa fa-map-marker-alt" />
+              <span css={{ color: "white" }}> Calle 106 # 54 - 81</span>
+            </li>
+            <li>
+              <i className="far fa-envelope" />
+              {"  "}
               <a
                 href="mailto: william.gutierrez46@yahoo.es"
                 css={{ color: "white" }}
@@ -51,12 +52,12 @@ const Topbar = () => (
             </li>
             <li>
               <i className="fa fa-phone" />
-              <span css={{ color: "white" }}> : +57 3120 2124705</span>
+              <span css={{ color: "white" }}> 310 575 9202</span>
             </li>
           </ul>
         </div>
       </div>
-    </Container>
+    </FluidContainer>
   </div>
 )
 
