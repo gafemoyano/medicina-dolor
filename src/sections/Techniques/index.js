@@ -66,10 +66,10 @@ const styles = {
     width: "100%"
   }
 }
-const TreatmentSection = () => (
-  <section css={styles.section}>
+const TechniquesSection = () => (
+  <section id="tecnicas" css={styles.section}>
     <Container>
-      <h2 css={styles.title}>Tratamiento del Dolor</h2>
+      <h2 css={styles.title}>Técnicas</h2>
       <SectionSeparator css={{ background: primary }} />
       <div css={styles.subtitleContainer}>
         <p>
@@ -112,4 +112,4 @@ const TreatmentSection = () => (
   </section>
 )
 
-export default TreatmentSection
+export default TechniquesSection

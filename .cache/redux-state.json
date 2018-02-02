@@ -8,7 +8,7 @@
       "component": "C:/Users/Felipe/Projects/medicina_dolor/.cache/dev-404-page.js",
       "componentChunkName": "component---cache-dev-404-page-js",
       "context": {},
-      "updatedAt": 1517501987840,
+      "updatedAt": 1517586849886,
       "pluginCreator___NODE": "Plugin dev-404-page",
       "pluginCreatorId": "Plugin dev-404-page",
       "componentPath": "C:/Users/Felipe/Projects/medicina_dolor/.cache/dev-404-page.js",
@@ -17,7 +17,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "31e85a4de17c3f5f7bed64e00e6ef5b8",
+        "contentDigest": "acfb6a5f9b8c7e0db0a263873e520346",
         "owner": "internal-data-bridge"
       }
     },
@@ -445,6 +445,10 @@
           {
             "name": "typography-theme-bootstrap",
             "version": "^0.16.7"
+          },
+          {
+            "name": "typography-theme-fairy-gates",
+            "version": "^0.15.11"
           }
         ],
         "devDependencies": [
@@ -473,12 +477,12 @@
       "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2018-02-01T16:19:45.394Z",
+      "buildTime": "2018-02-02T15:54:07.279Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "cd98d3849c14583a1cdc1bb10391b971",
+        "contentDigest": "bf4360e31742bb34e6c37dc7a1a768ef",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -491,7 +495,7 @@
       "component": "C:/Users/Felipe/Projects/medicina_dolor/src/pages/404.js",
       "componentChunkName": "component---src-pages-404-js",
       "context": {},
-      "updatedAt": 1517501987849,
+      "updatedAt": 1517586849897,
       "pluginCreator___NODE": "Plugin component-page-creator",
       "pluginCreatorId": "Plugin component-page-creator",
       "componentPath": "C:/Users/Felipe/Projects/medicina_dolor/src/pages/404.js",
@@ -500,7 +504,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "cb4bd676f75e399bf87307d642475895",
+        "contentDigest": "60a0e1585c177fb3a89cdf90123a4b33",
         "owner": "internal-data-bridge"
       }
     },
@@ -512,7 +516,7 @@
       "component": "C:/Users/Felipe/Projects/medicina_dolor/src/pages/index.js",
       "componentChunkName": "component---src-pages-index-js",
       "context": {},
-      "updatedAt": 1517501987850,
+      "updatedAt": 1517586849899,
       "pluginCreator___NODE": "Plugin component-page-creator",
       "pluginCreatorId": "Plugin component-page-creator",
       "componentPath": "C:/Users/Felipe/Projects/medicina_dolor/src/pages/index.js",
@@ -521,28 +525,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "dfc2e20d9570bfc3e1b3f7c192c2bc2e",
-        "owner": "internal-data-bridge"
-      }
-    },
-    "SitePage /page-2/": {
-      "layout": "index",
-      "jsonName": "page-2.json",
-      "internalComponentName": "ComponentPage2",
-      "path": "/page-2/",
-      "component": "C:/Users/Felipe/Projects/medicina_dolor/src/pages/page-2.js",
-      "componentChunkName": "component---src-pages-page-2-js",
-      "context": {},
-      "updatedAt": 1517501987851,
-      "pluginCreator___NODE": "Plugin component-page-creator",
-      "pluginCreatorId": "Plugin component-page-creator",
-      "componentPath": "C:/Users/Felipe/Projects/medicina_dolor/src/pages/page-2.js",
-      "id": "SitePage /page-2/",
-      "parent": "SOURCE",
-      "children": [],
-      "internal": {
-        "type": "SitePage",
-        "contentDigest": "7cbacef326830a5e3b45c3a8159f74d8",
+        "contentDigest": "e948c86729c47e6a726d22974fb855a9",
         "owner": "internal-data-bridge"
       }
     },
@@ -554,7 +537,7 @@
       "component": "C:/Users/Felipe/Projects/medicina_dolor/src/pages/404.js",
       "componentChunkName": "component---src-pages-404-js",
       "context": {},
-      "updatedAt": 1517501987854,
+      "updatedAt": 1517586849901,
       "pluginCreator___NODE": "Plugin prod-404",
       "pluginCreatorId": "Plugin prod-404",
       "componentPath": "C:/Users/Felipe/Projects/medicina_dolor/src/pages/404.js",
@@ -563,14 +546,14 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "80ea77f10df88c73a4f349bc0e5e1b07",
+        "contentDigest": "3faa4ed12a30aceade867aa064112e16",
         "owner": "internal-data-bridge"
       }
     }
   },
   "status": {
     "plugins": {},
-    "PLUGINS_HASH": "ad166947e3f58debf86df65b4441302b"
+    "PLUGINS_HASH": "44ec8f42d68a3bdcd498f541f0851b11"
   },
   "componentDataDependencies": {
     "nodes": {},

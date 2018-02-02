@@ -4,6 +4,7 @@ import Helmet from "react-helmet"
 import Navigation from "../components/Navigation"
 import Topbar from "../components/Topbar"
 import Footer from "../components/Footer"
+import favicon from "./favicon.png"
 const TemplateWrapper = ({ children }) => (
   <div>
     <Helmet
@@ -21,6 +22,7 @@ const TemplateWrapper = ({ children }) => (
         }
       ]}
     >
+      <link rel="icon" href={favicon} type="image/png" />
       <script
         defer
         src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"

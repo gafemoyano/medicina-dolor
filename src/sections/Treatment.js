@@ -7,6 +7,7 @@ import { rhythm } from "../utils/typography"
 
 const TreatmentSection = () => (
   <section
+    id="tratamiento"
     css={{
       padding: "100px 0",
       textAlign: "center",
@@ -63,7 +64,7 @@ const TreatmentSection = () => (
             paddingBottom: "0px",
             marginBottom: "0px"
           },
-          "& i": {
+          "& svg": {
             marginRight: "10px"
           },
           [mobile]: {

@@ -1,7 +1,7 @@
 import React from "react"
-import { grey, dark } from "../../utils/colors"
-import FluidContainer from "../FluidContainer"
-import { desktop } from "../../utils/media"
+import { grey, dark } from "../utils/colors"
+import FluidContainer from "./FluidContainer"
+import { desktop } from "../utils/media"
 const Topbar = () => (
   <div
     css={{
