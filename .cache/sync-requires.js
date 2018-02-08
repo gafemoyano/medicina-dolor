@@ -7,14 +7,11 @@ exports.layouts = {
 }
 
 exports.components = {
-  "component---cache-dev-404-page-js": preferDefault(require("C:\\Users\\Felipe\\Projects\\medicina_dolor\\.cache\\dev-404-page.js")),
   "component---src-pages-404-js": preferDefault(require("C:\\Users\\Felipe\\Projects\\medicina_dolor\\src\\pages\\404.js")),
   "component---src-pages-index-js": preferDefault(require("C:\\Users\\Felipe\\Projects\\medicina_dolor\\src\\pages\\index.js"))
 }
 
 exports.json = {
-  "layout-index.json": require("C:\\Users\\Felipe\\Projects\\medicina_dolor\\.cache\\json\\layout-index.json"),
-  "dev-404-page.json": require("C:\\Users\\Felipe\\Projects\\medicina_dolor\\.cache\\json\\dev-404-page.json"),
   "layout-index.json": require("C:\\Users\\Felipe\\Projects\\medicina_dolor\\.cache\\json\\layout-index.json"),
   "404.json": require("C:\\Users\\Felipe\\Projects\\medicina_dolor\\.cache\\json\\404.json"),
   "layout-index.json": require("C:\\Users\\Felipe\\Projects\\medicina_dolor\\.cache\\json\\layout-index.json"),

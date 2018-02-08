@@ -20,7 +20,7 @@ const TemplateWrapper = ({ children }) => (
         {
           name: "keywords",
           content:
-            "clínica, dolor, quiropraxis, digito-puntura, quiromasaje, sintergetica, auriculoterapia, reflexologia, podal, reiki"
+            "clínica, dolor, quiropraxis, digito-puntura, quiromasaje, sintergetica, auriculoterapia, reflexologia, podal, reiki, bogotá, colombia"
         },
         {
           name: "author",

@@ -1,23 +1,13 @@
 {
   "nodes": {
     "SitePage /dev-404-page/": {
-      "layout": "index",
-      "jsonName": "dev-404-page.json",
-      "internalComponentName": "ComponentDev404Page",
       "path": "/dev-404-page/",
-      "component": "C:/Users/Felipe/Projects/medicina_dolor/.cache/dev-404-page.js",
-      "componentChunkName": "component---cache-dev-404-page-js",
-      "context": {},
-      "updatedAt": 1518104795798,
-      "pluginCreator___NODE": "Plugin dev-404-page",
-      "pluginCreatorId": "Plugin dev-404-page",
-      "componentPath": "C:/Users/Felipe/Projects/medicina_dolor/.cache/dev-404-page.js",
       "id": "SitePage /dev-404-page/",
       "parent": "SOURCE",
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "9b36ab52f2d38e4a6fa8d24a8af78e3e",
+        "contentDigest": "f91d29e10ba680b413138cf9ed86e655",
         "owner": "internal-data-bridge"
       }
     },
@@ -473,16 +463,14 @@
       "siteMetadata": {
         "title": "William Gutierrez - Medicina del Dolor"
       },
-      "port": "8000",
-      "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2018-02-08T15:46:33.192Z",
+      "buildTime": "2018-02-08T16:56:15.039Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "0ddc2c06152f9cadbc04b8bdc484beab",
+        "contentDigest": "b589d468800738288aa4898258471214",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -495,7 +483,7 @@
       "component": "C:/Users/Felipe/Projects/medicina_dolor/src/pages/404.js",
       "componentChunkName": "component---src-pages-404-js",
       "context": {},
-      "updatedAt": 1518104795807,
+      "updatedAt": 1518108977306,
       "pluginCreator___NODE": "Plugin component-page-creator",
       "pluginCreatorId": "Plugin component-page-creator",
       "componentPath": "C:/Users/Felipe/Projects/medicina_dolor/src/pages/404.js",
@@ -504,7 +492,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "f64937b0c6a9558812dbca6cc55d1bf2",
+        "contentDigest": "7126eb78324521d1db0c9d61a78cd460",
         "owner": "internal-data-bridge"
       }
     },
@@ -516,7 +504,7 @@
       "component": "C:/Users/Felipe/Projects/medicina_dolor/src/pages/index.js",
       "componentChunkName": "component---src-pages-index-js",
       "context": {},
-      "updatedAt": 1518104795808,
+      "updatedAt": 1518108977307,
       "pluginCreator___NODE": "Plugin component-page-creator",
       "pluginCreatorId": "Plugin component-page-creator",
       "componentPath": "C:/Users/Felipe/Projects/medicina_dolor/src/pages/index.js",
@@ -525,7 +513,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "04b9babc1286761fe134ca5fbbee425f",
+        "contentDigest": "15ca1e0cf16c2f5b3d5a176d1ecb88a0",
         "owner": "internal-data-bridge"
       }
     },
@@ -537,7 +525,7 @@
       "component": "C:/Users/Felipe/Projects/medicina_dolor/src/pages/404.js",
       "componentChunkName": "component---src-pages-404-js",
       "context": {},
-      "updatedAt": 1518104795811,
+      "updatedAt": 1518108977309,
       "pluginCreator___NODE": "Plugin prod-404",
       "pluginCreatorId": "Plugin prod-404",
       "componentPath": "C:/Users/Felipe/Projects/medicina_dolor/src/pages/404.js",
@@ -546,7 +534,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "ec8a2587677b18d91b79e83c842fd2e1",
+        "contentDigest": "920ef11f145b1b2a3e098bc168a066db",
         "owner": "internal-data-bridge"
       }
     }
