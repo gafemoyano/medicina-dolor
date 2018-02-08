@@ -40,7 +40,7 @@ const HeroSection = () => (
           textAlign: "center"
         }}
       >
-        Medicina del Dolor
+        Clínica del Dolor
       </h1>
       <div css={{ display: "block", textAlign: "center", width: "100%" }}>
         <span

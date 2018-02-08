@@ -125,7 +125,7 @@ class Navigation extends React.Component {
                     fontWeight: "bold"
                   }}
                 >
-                  Medicina del Dolor
+                  Clínica del Dolor
                 </span>
               </Link>
             </h1>
