@@ -54,8 +54,8 @@ const Topbar = () => (
               </a>
             </li>
             <li>
-              <i className="fa fa-phone" />
-              <span css={{ color: "white" }}> 310 575 9202</span>
+              <i className="fab fa-whatsapp" />
+              <span css={{ color: "white" }}> +57 310 575 9202</span>
             </li>
           </ul>
         </div>

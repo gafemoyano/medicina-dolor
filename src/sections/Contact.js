@@ -105,7 +105,7 @@ const ContactSection = () => (
               {" Calle 106 #54-81, Bogotá. (El Sendero del Ser) "}
             </li>
             <li>
-              <i className="fas fa-mobile-alt" style={{ fontSize: "1.8rem" }} />{" "}
+              <i className="fab fa-whatsapp" style={{ fontSize: "1.8rem" }} />{" "}
               {" +57 310 212 4705"}
             </li>
             <li>
