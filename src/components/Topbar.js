@@ -38,7 +38,10 @@ const Topbar = () => (
           >
             <li>
               <i className="fa fa-map-marker-alt" />
-              <span css={{ color: "white" }}> Calle 106 # 54 - 81</span>
+              <span css={{ color: "white" }}>
+                {" "}
+                Calle 106 # 54 - 81, Bogotá.
+              </span>
             </li>
             <li>
               <i className="far fa-envelope" />

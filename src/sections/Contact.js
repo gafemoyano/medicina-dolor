@@ -102,7 +102,7 @@ const ContactSection = () => (
           >
             <li>
               <i className="fas fa-map-marker-alt " />
-              {" Calle 106 #54-81, Bogotá, Bogotá. (El Sendero del Ser) "}
+              {" Calle 106 #54-81, Bogotá. (El Sendero del Ser) "}
             </li>
             <li>
               <i className="fas fa-mobile-alt" style={{ fontSize: "1.8rem" }} />{" "}

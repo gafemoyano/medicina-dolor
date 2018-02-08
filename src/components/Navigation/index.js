@@ -1,7 +1,14 @@
 import React from "react"
 import Link from "gatsby-link"
 import { rhythm, scale } from "../../utils/typography"
-import { primary, grey_lighter, white, grey_dark } from "../../utils/colors"
+import {
+  primary,
+  grey_lighter,
+  white,
+  grey_dark,
+  grey_darker,
+  grey
+} from "../../utils/colors"
 import media from "../../utils/media"
 import NavbarBurger from "./NavbarBurger"
 import FluidContainer from "../FluidContainer"
@@ -150,7 +157,7 @@ class Navigation extends React.Component {
               display: this.state.isMenuActive ? "block" : "none",
               width: "100%",
               overflow: "hidden",
-              backgroundColor: primary,
+              backgroundColor: grey,
               position: "absolute",
               right: 0,
               "& a": {

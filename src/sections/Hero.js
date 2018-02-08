@@ -1,8 +1,17 @@
 import React from "react"
+import Link from "gatsby-link"
 import william from "./sportsmassage1.jpg"
-import { primary, grey_darker } from "../utils/colors"
+import Separator from "../components/SectionSeparator"
+import {
+  primary,
+  grey_darker,
+  danger,
+  white,
+  grey_light
+} from "../utils/colors"
+import SectionSeparator from "../components/SectionSeparator"
 const HeroSection = () => (
-  <header
+  <div
     css={{
       backgroundImage: `url('${william}')`,
       backgroundSize: "cover",
@@ -17,13 +26,13 @@ const HeroSection = () => (
         width: "400px",
         display: "flex",
         flexDirection: "column",
-        alignItems: "center",
-        margin: "auto"
+        margin: "auto",
+        textAlign: "center"
       }}
     >
       <h1
         css={{
-          color: "white",
+          color: white,
           lineHeight: "1",
           textTransform: "uppercase",
           fontSize: "3em",
@@ -33,41 +42,54 @@ const HeroSection = () => (
       >
         Medicina del Dolor
       </h1>
+      <div css={{ display: "block", textAlign: "center", width: "100%" }}>
+        <span
+          css={{
+            background: danger,
+            display: "block",
+            marginLeft: "40%",
+            marginRight: "40%",
+            marginTop: "1rem",
+            marginBottom: "1.6rem",
+            height: "4px",
+            maxWidth: "20%"
+          }}
+        />
+      </div>
+
       <h3
         css={{
-          color: "white",
+          color: white,
           lineHeight: "1",
           marginBottom: "40px",
-          fontSize: "1.5em",
-          display: "flex",
-          fontWeight: "normal"
+          fontSize: "2rem",
+          display: "block",
+          fontWeight: "normal",
+          textAlign: "center"
         }}
       >
-        <span>Consultorio</span>
-        <span css={{ color: primary, margin: "0 0.5rem" }}>/</span>
-        <span>Medicina</span>
-        <span css={{ color: primary, margin: "0 0.5rem" }}>/</span>
-        <span>Tratamiento</span>
+        <span>Quiropráxis</span>
       </h3>
-      <a
-        href="#"
+      <Link
+        to="#contacto"
         css={{
           textTransform: "uppercase",
-          color: "white",
+          color: white,
           padding: "20px",
           border: "1px solid white",
           textDecoration: "none",
+          margin: "1rem 5rem",
           ":hover": {
             backgroundColor: primary,
             borderColor: primary,
-            color: grey_darker
+            color: grey_light
           }
         }}
       >
-        Contactar
-      </a>
+        Sacar una Cita
+      </Link>
     </div>
-  </header>
+  </div>
 )
 
 export default HeroSection

@@ -1,5 +1,4 @@
 import React from "react"
-import Link from "gatsby-link"
 import HeroSection from "../sections/Hero"
 import TreatmentSection from "../sections/Treatment"
 import TechniquestSection from "../sections/Techniques"

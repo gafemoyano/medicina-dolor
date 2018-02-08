@@ -1,4 +1,4 @@
-export const white = "hsl(0, 0%, 100%)"
+export const white = "hsl(0, 0%, 98%)"
 export const black = "hsl(0, 0%, 4%)"
 export const light = "hsl(0, 0%, 96%)"
 export const dark = "hsl(0, 0%, 15%)"
