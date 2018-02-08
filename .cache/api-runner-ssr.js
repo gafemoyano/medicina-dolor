@@ -8,6 +8,9 @@ var plugins = [{
       plugin: require('C:/Users/Felipe/Projects/medicina_dolor/node_modules/gatsby-plugin-typography/gatsby-ssr.js'),
       options: {"plugins":[],"pathToConfigModule":"src/utils/typography"},
     },{
+      plugin: require('C:/Users/Felipe/Projects/medicina_dolor/node_modules/gatsby-plugin-google-analytics/gatsby-ssr.js'),
+      options: {"plugins":[],"trackingId":"UA-81852234-3","anonymize":true},
+    },{
       plugin: require('C:/Users/Felipe/Projects/medicina_dolor/gatsby-ssr.js'),
       options: {"plugins":[]},
     }]

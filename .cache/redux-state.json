@@ -387,11 +387,68 @@
         "owner": "internal-data-bridge"
       }
     },
+    "Plugin gatsby-plugin-google-analytics": {
+      "resolve": "C:/Users/Felipe/Projects/medicina_dolor/node_modules/gatsby-plugin-google-analytics",
+      "id": "Plugin gatsby-plugin-google-analytics",
+      "name": "gatsby-plugin-google-analytics",
+      "version": "1.0.17",
+      "pluginOptions": {
+        "plugins": [],
+        "trackingId": "UA-81852234-3",
+        "anonymize": true
+      },
+      "nodeAPIs": [],
+      "pluginFilepath": "C:/Users/Felipe/Projects/medicina_dolor/node_modules/gatsby-plugin-google-analytics",
+      "packageJson": {
+        "name": "gatsby-plugin-google-analytics",
+        "description": "Gatsby plugin to add google analytics onto a site",
+        "version": "1.0.17",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "google analytics"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^1.0.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "017a81e3cd6ac9af554b30f10bfbab47",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
     "Plugin default-site-plugin": {
       "resolve": "C:/Users/Felipe/Projects/medicina_dolor",
       "id": "Plugin default-site-plugin",
       "name": "default-site-plugin",
-      "version": "644e9a8765ea2f9a50f229aa519cb8e3",
+      "version": "f5db160830eeeec8f7218f89c8dd8f24",
       "pluginOptions": {
         "plugins": []
       },
@@ -421,6 +478,10 @@
             "version": "^1.6.10"
           },
           {
+            "name": "gatsby-plugin-google-analytics",
+            "version": "^1.0.17"
+          },
+          {
             "name": "gatsby-plugin-react-helmet",
             "version": "^2.0.3"
           },
@@ -435,10 +496,6 @@
           {
             "name": "typography-theme-bootstrap",
             "version": "^0.16.7"
-          },
-          {
-            "name": "typography-theme-fairy-gates",
-            "version": "^0.15.11"
           }
         ],
         "devDependencies": [
@@ -454,7 +511,7 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "ee7af626262ebdad1c0ac97e016f67c4",
+        "contentDigest": "be4d9d3ee27e8e0f4b78e0c965b55de3",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -465,12 +522,12 @@
       },
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2018-02-08T17:43:50.370Z",
+      "buildTime": "2018-02-08T18:23:27.477Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "48ddbcb280b3bb370066a036642ae61d",
+        "contentDigest": "058d036df10065db47ed4016946ed6c1",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -483,7 +540,7 @@
       "component": "C:/Users/Felipe/Projects/medicina_dolor/src/pages/404.js",
       "componentChunkName": "component---src-pages-404-js",
       "context": {},
-      "updatedAt": 1518111832533,
+      "updatedAt": 1518114209898,
       "pluginCreator___NODE": "Plugin component-page-creator",
       "pluginCreatorId": "Plugin component-page-creator",
       "componentPath": "C:/Users/Felipe/Projects/medicina_dolor/src/pages/404.js",
@@ -492,7 +549,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "2df0f81d0b3e40fae4d614744ecac3b8",
+        "contentDigest": "ab307cfecfb2afae28070cf26b1257d6",
         "owner": "internal-data-bridge"
       }
     },
@@ -504,7 +561,7 @@
       "component": "C:/Users/Felipe/Projects/medicina_dolor/src/pages/index.js",
       "componentChunkName": "component---src-pages-index-js",
       "context": {},
-      "updatedAt": 1518111832534,
+      "updatedAt": 1518114209900,
       "pluginCreator___NODE": "Plugin component-page-creator",
       "pluginCreatorId": "Plugin component-page-creator",
       "componentPath": "C:/Users/Felipe/Projects/medicina_dolor/src/pages/index.js",
@@ -513,7 +570,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "17a3904c68a036080264a7f6239eb186",
+        "contentDigest": "9e29308e488a79baa003663f688a0b03",
         "owner": "internal-data-bridge"
       }
     },
@@ -525,7 +582,7 @@
       "component": "C:/Users/Felipe/Projects/medicina_dolor/src/pages/404.js",
       "componentChunkName": "component---src-pages-404-js",
       "context": {},
-      "updatedAt": 1518111832535,
+      "updatedAt": 1518114209902,
       "pluginCreator___NODE": "Plugin prod-404",
       "pluginCreatorId": "Plugin prod-404",
       "componentPath": "C:/Users/Felipe/Projects/medicina_dolor/src/pages/404.js",
@@ -534,21 +591,17 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "04306b438356d6879caaf29e73ba3747",
+        "contentDigest": "2a60e9d0acd4ab7ec7afbffb7d9ce24d",
         "owner": "internal-data-bridge"
       }
     }
   },
   "status": {
     "plugins": {},
-    "PLUGINS_HASH": "44ec8f42d68a3bdcd498f541f0851b11"
+    "PLUGINS_HASH": "849db4afbe91173ca5e35bca253bd5a3"
   },
   "componentDataDependencies": {
     "nodes": {},
-    "connections": {
-      "SitePage": [
-        "/dev-404-page/"
-      ]
-    }
+    "connections": {}
   }
 }
