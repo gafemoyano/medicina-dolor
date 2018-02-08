@@ -1,8 +1,8 @@
 Arguments: 
-  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js add font-awesome
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js add gatsby-plugin-google-analytics
 
 PATH: 
-  C:\Program Files\ConEmu\ConEmu\Scripts;C:\Program Files\ConEmu;C:\Program Files\ConEmu\ConEmu;C:\Ruby23-x64\bin;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files (x86)\Microsoft SDKs\TypeScript\1.0\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files (x86)\Livestreamer;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\dotnet\;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files\Git\cmd;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\ProgramData\chocolatey\bin;C:\tools\python2;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Users\Felipe\AppData\Local\Android\sdk\platform-tools;C:\ProgramData\chocolatey\lib\Elixir/bin;C:\Program Files\PostgreSQL\9.4\bin;C:\DevKit\bin;C:\Program Files (x86)\Streamlink\bin;C:\Program Files (x86)\Skype\Phone\;C:\HashiCorp\Vagrant\bin;C:\Program Files\nodejs\;C:\Program Files (x86)\Yarn\bin;C:\Users\Felipe\.dnx\bin;C:\Users\Felipe\AppData\Local\atom\bin;C:\Program Files\Docker Toolbox;C:\Program Files\Microsoft VS Code\bin;C:\Users\Felipe\AppData\Roaming\npm;C:\Users\Felipe\AppData\Local\Yarn\bin
+  C:\Program Files\ConEmu\ConEmu\Scripts;C:\Program Files\ConEmu;C:\Program Files\ConEmu\ConEmu;C:\Ruby23-x64\bin;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files (x86)\Microsoft SDKs\TypeScript\1.0\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files (x86)\Livestreamer;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\dotnet\;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files\Git\cmd;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\ProgramData\chocolatey\bin;C:\tools\python2;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Users\Felipe\AppData\Local\Android\sdk\platform-tools;C:\ProgramData\chocolatey\lib\Elixir/bin;C:\Program Files\PostgreSQL\9.4\bin;C:\DevKit\bin;C:\Program Files (x86)\Streamlink\bin;C:\Program Files (x86)\Skype\Phone\;C:\Program Files\nodejs\;C:\Program Files (x86)\Yarn\bin;C:\HashiCorp\Vagrant\bin;C:\Users\Felipe\.dnx\bin;C:\Users\Felipe\AppData\Local\atom\bin;C:\Program Files\Docker Toolbox;C:\Program Files\Microsoft VS Code\bin;C:\Users\Felipe\AppData\Roaming\npm;C:\Users\Felipe\AppData\Local\Yarn\bin
 
 Yarn version: 
   1.3.2
@@ -26,7 +26,8 @@ npm manifest:
       "gatsby-plugin-react-helmet": "^2.0.3",
       "gatsby-plugin-typography": "^1.7.10",
       "react-helmet": "^5.2.0",
-      "typography-theme-bootstrap": "^0.16.7"
+      "typography-theme-bootstrap": "^0.16.7",
+      "typography-theme-fairy-gates": "^0.15.11"
     },
     "keywords": [
       "gatsby"
@@ -7680,6 +7681,10 @@ Lockfile:
     version "2.0.1"
     resolved "https://registry.yarnpkg.com/type-of/-/type-of-2.0.1.tgz#e72a1741896568e9f628378d816d6912f7f23972"
   
+  typography-breakpoint-constants@^0.15.10:
+    version "0.15.10"
+    resolved "https://registry.yarnpkg.com/typography-breakpoint-constants/-/typography-breakpoint-constants-0.15.10.tgz#bd5308dd57250e7f28a8c6e1c0e668ddf1178c5c"
+  
   typography-normalize@^0.14.0:
     version "0.14.0"
     resolved "https://registry.yarnpkg.com/typography-normalize/-/typography-normalize-0.14.0.tgz#1d77c1fe2aaf4a51b3673c4c85c85a65a2d4b573"
@@ -7689,6 +7694,13 @@ Lockfile:
     resolved "https://registry.yarnpkg.com/typography-theme-bootstrap/-/typography-theme-bootstrap-0.16.7.tgz#53681247ae5b2bbad642d1d83fb1951377e47888"
     dependencies:
       gray-percentage "^2.0.0"
+  
+  typography-theme-fairy-gates@^0.15.11:
+    version "0.15.11"
+    resolved "https://registry.yarnpkg.com/typography-theme-fairy-gates/-/typography-theme-fairy-gates-0.15.11.tgz#305ec02548e4065ab6ba9c7b47ff5099b6f9be5c"
+    dependencies:
+      gray-percentage "^2.0.0"
+      typography-breakpoint-constants "^0.15.10"
   
   typography@^0.16.0:
     version "0.16.6"
@@ -8289,4 +8301,4 @@ Lockfile:
       strip-bom "^3.0.0"
 
 Trace: 
-  Error: UNKNOWN: unknown error, open 'C:\Users\Felipe\Projects\medicina_dolor\node_modules\.bin\gatsby.cmd'
+  Error: UNKNOWN: unknown error, open 'C:\Users\Felipe\Projects\medicina_dolor\node_modules\.bin\detect.cmd'
