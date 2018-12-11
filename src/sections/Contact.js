@@ -106,7 +106,7 @@ const ContactSection = () => (
             </li>
             <li>
               <i className="fab fa-whatsapp" style={{ fontSize: "1.8rem" }} />{" "}
-              {" +57 310 212 4705"}
+              {" +57 310 575 9202"}
             </li>
             <li>
               <i className="fas fa-envelope" />{" "}
